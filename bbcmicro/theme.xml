@@ -1,0 +1,43 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../mpcore.xml</include>
+
+	<view name="system, basic, detailed">
+
+		<image name="background" extra="true">
+			<color>b8982d</color>
+		</image>
+
+		<image name="logo">
+			<path>./art/system.svg</path>
+		</image>
+
+		<image name="console" extra="true">
+			<path>./art/controller.svg</path>
+		</image>
+
+	</view>
+
+	<view name="system">
+
+		<text name="system_description" extra="true">
+			<text>The BBC Microcomputer System, or BBC Micro, is a series of microcomputers and associated peripherals designed and built by the Acorn Computer company for the BBC Computer Literacy Project</text>
+		</text>
+
+		<image name="screenshot_left" extra="true">
+			<path>./art/screenshot1.jpg</path>
+		</image>
+		<image name="screenshot_right" extra="true">
+			<path>./art/screenshot2.jpg</path>
+		</image>
+	</view>
+
+	<view name="basic, detailed">
+
+		<textlist name="gamelist">
+			<selectorColor>b8982d88</selectorColor>
+		</textlist>
+
+	</view>
+	
+</theme>
